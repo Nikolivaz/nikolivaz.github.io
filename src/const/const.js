@@ -147,47 +147,39 @@ export const projects = [
       {
         icon: IconKeys.fabric,
       },
+    ],
+  },
+  {
+    img: "../../../img/DASH-Productos.png",
+    title: "Análisis de Ventas por Producto",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiZWE3NjcwMmMtNDVlMS00ZGQ0LWExODEtNWVlNzY5YzFiM2NjIiwidCI6ImIyNzg4MzIxLWFjYjgtNDc4OC04NmUzLThhYTQ1M2U1NDkyMiIsImMiOjR9",
+    description: `Proyecto de visualización y filtrado de imágenes agrupadas, para analizar ventas por producto.`,
+    technologies: [
       {
-        icon: IconKeys.mongodb,
+        icon: IconKeys.powerbi,
       },
       {
-        icon: IconKeys.stripe,
+        icon: IconKeys.excel,
+      },
+      {
+        icon: IconKeys.fabric,
       },
     ],
   },
   {
-    img: "../../../img/nexanime.webp",
-    title: "NexAnime",
-    link: "https://nexanime.vercel.app",
-    description: `plataforma de anime para ver los animes en tendencia , más valorados , estadísticas.`,
+    img: "../../../img/DASH-Compras.png",
+    title: "Análisis de Compras por Status",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiZTFjYzJmZGUtNjI0My00NmEwLWJjMmQtNWI0ZThjMGMyYjFlIiwidCI6ImIyNzg4MzIxLWFjYjgtNDc4OC04NmUzLThhYTQ1M2U1NDkyMiIsImMiOjR9",
+    description: `Este Proyecto busca visualizar gastos realizados por distintos Empleados de una empresa`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.powerbi,
       },
       {
-        icon: IconKeys.nextjs,
+        icon: IconKeys.excel,
       },
       {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-  {
-    img: "../../../img/cyberpunk.webp",
-    title: "cyberpunk",
-    link: "https://preeminent-liger-266356.netlify.app/",
-    description: `este proyecto se trata de un clon de la pagína de cyberpunk , donde
-      el ususario puede ver los tailer de él juegos y también los
-      episodios de la serie....`,
-    technologies: [
-      {
-        icon: IconKeys.html,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
+        icon: IconKeys.fabric,
       },
     ],
   },

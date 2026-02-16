@@ -130,10 +130,10 @@ export const skills = [
 
 export const projects = [
   {
-    img: "../../../img/ecommerce-stripe-2.webp",
-    title: "Ecommerce Stripe",
-    link: "https://ecommerce-stripe-763m.vercel.app/",
-    description: `Proyecto FullStack de un ecommerce con pasarela de pagos stripe integrada, destalles de el product etc.  `,
+    img: "../../../img/DASH-Ingresos.png",
+    title: "Seguimiento Financiero",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiMDVjMWFmYjEtMjcxZS00YTc0LWI4NmItYTZmYjA2MGNlN2EzIiwidCI6ImIyNzg4MzIxLWFjYjgtNDc4OC04NmUzLThhYTQ1M2U1NDkyMiIsImMiOjR9",
+    description: `Proyecto de seguimiento financiero de un negocio en sus gastos, buscando bajar costos debido a irregularidades en su facturación.`,
     technologies: [
       {
         icon: IconKeys.typeScript,

@@ -41,6 +41,12 @@ export const IconKeys = {
   powerbi: "powerbi",
   excel: "excel",
   fabric: "fabric",
+  githubb: "githubb",
+  sql: "sql",
+  python: "python",
+  pandas: "pandas",
+  matplotlib: "matplotlib",
+  seaborn: "seaborn",
   // here add more icon keys
 };
 
@@ -58,29 +64,29 @@ export const skills = [
     icon: IconKeys.fabric,
   },
   {
-    title: "Astro",
-    icon: IconKeys.astro,
+    title: "SQL",
+    icon: IconKeys.sql,
   },
   {
-    title: "Tailwindcss",
-    icon: IconKeys.tailwind,
+    title: "Python",
+    icon: IconKeys.python,
   },
   {
-    title: "React Js",
-    icon: IconKeys.react,
+    title: "Pandas",
+    icon: IconKeys.pandas,
   },
   {
-    title: "Next Js",
-    icon: IconKeys.nextjs,
+    title: "Matplotlib",
+    icon: IconKeys.matplotlib,
   },
   {
-    title: "Git",
-    icon: IconKeys.git,
+    title: "Seaborn",
+    icon: IconKeys.seaborn,
   },
 
   {
     title: "Github",
-    icon: IconKeys.github,
+    icon: IconKeys.githubb,
   },
   {
     title: "Material UI",

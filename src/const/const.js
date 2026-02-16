@@ -38,13 +38,14 @@ export const IconKeys = {
   nodejs: "nodejs",
   mongodb: "mongodb",
   vite: "vite",
+  powerbi: "powerbi",
   // here add more icon keys
 };
 
 export const skills = [
   {
-    title: "Html",
-    icon: IconKeys.html,
+    title: "Power BI",
+    icon: IconKeys.powerbi,
   },
   {
     title: "Css",
@@ -133,10 +134,10 @@ export const projects = [
     img: "../../../img/DASH-Ingresos.png",
     title: "Seguimiento Financiero",
     link: "https://app.powerbi.com/view?r=eyJrIjoiMDVjMWFmYjEtMjcxZS00YTc0LWI4NmItYTZmYjA2MGNlN2EzIiwidCI6ImIyNzg4MzIxLWFjYjgtNDc4OC04NmUzLThhYTQ1M2U1NDkyMiIsImMiOjR9",
-    description: `Proyecto de seguimiento financiero de un negocio en sus gastos, buscando bajar costos debido a irregularidades en su facturación.`,
+    description: `Proyecto de seguimiento financiero de un negocio en sus gastos, buscando bajar costos debido a irregularidades.`,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.powerbi,
       },
       {
         icon: IconKeys.nextjs,

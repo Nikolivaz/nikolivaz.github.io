@@ -39,6 +39,8 @@ export const IconKeys = {
   mongodb: "mongodb",
   vite: "vite",
   powerbi: "powerbi",
+  excel: "excel",
+  fabric: "fabric",
   // here add more icon keys
 };
 
@@ -48,12 +50,12 @@ export const skills = [
     icon: IconKeys.powerbi,
   },
   {
-    title: "Css",
-    icon: IconKeys.css,
+    title: "Excel",
+    icon: IconKeys.excel,
   },
   {
-    title: "JavaScript",
-    icon: IconKeys.javaScript,
+    title: "Fabric",
+    icon: IconKeys.fabric,
   },
   {
     title: "Astro",
@@ -140,10 +142,10 @@ export const projects = [
         icon: IconKeys.powerbi,
       },
       {
-        icon: IconKeys.nextjs,
+        icon: IconKeys.excel,
       },
       {
-        icon: IconKeys.tailwind,
+        icon: IconKeys.fabric,
       },
       {
         icon: IconKeys.mongodb,

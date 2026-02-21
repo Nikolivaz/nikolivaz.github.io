@@ -7,10 +7,10 @@ import { getIconComponent } from "../../../icons/IconAll.astro";
 <section class="section-skill">
   <div class="linear-grandient-1"></div>
   <div class="container-skill">
-    <h2 class="title-skills" id="skills">Habilidades Duras</h2>
+    <h2 class="title-skills" id="skills">Habilidades Blandas</h2>
     <ul class="ul-skill">
       {
-        skills.map(({ icon, title }) => {
+        soft_skills.map(({ icon, title }) => {
           const IconComponent = getIconComponent(icon);
           return (
             <li class="li-skills">
@@ -21,10 +21,10 @@ import { getIconComponent } from "../../../icons/IconAll.astro";
         })
       }
     </ul>
-    <h2 class="title-skills" id="skills">Habilidades Blandas</h2>
+    <h2 class="title-skills" id="skills">Habilidades Duras</h2>
     <ul class="ul-skill">
       {
-        soft_skills.map(({ icon, title }) => {
+        skills.map(({ icon, title }) => {
           const IconComponent = getIconComponent(icon);
           return (
             <li class="li-skills">

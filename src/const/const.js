@@ -106,6 +106,9 @@ export const skills = [
     title: "JavaScript",
     icon: IconKeys.javaScript,
   },
+];
+
+export const soft_skills = [
   {
     title: "Comunicación",
     icon: IconKeys.communication,

@@ -176,7 +176,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/DASH-Cantantes.webp",
+    img: "../../../img/DASH-Cantantes.png",
     title: "Artistas Argentinos",
     link: "https://app.powerbi.com/view?r=eyJrIjoiZDNlOGI0MGItMDU3Ny00MmE1LTkzZGEtZTYwOTg1Nzg2MjdjIiwidCI6ImIyNzg4MzIxLWFjYjgtNDc4OC04NmUzLThhYTQ1M2U1NDkyMiIsImMiOjR9",
     description: `Proyecto de visualización de Artistas argentinos por año y género en una base SQL local.`,

@@ -1,18 +1,18 @@
 export const studies = [
   {
-    title: "Técnico en desarrollo de software",
-    corporation: "SENA - Montería (Córdoba) ",
-    date: "02/2019 – 12/2019",
+    title: "Licenciatura en Ciencia de Datos (en curso)",
+    corporation: "UBA - Facultad de Ciencias Exactas",
+    date: "03/2023 – 11/2028 - aproximado",
   },
   {
-    title: "Desarrollador Front-end React Js",
-    corporation: "Alura Latam - Remoto",
-    date: "04/2023 – 09/2023",
+    title: "Cursos de Formación en Data Analytics y Visualización",
+    corporation: "Power BI (Microsoft), Data Analytics (IBM).",
+    date: "06/2025 – 02/2026",
   },
   {
-    title: "Curso profesional de React Js",
-    corporation: "Código facilito - Remoto",
-    date: "04/2023 – 04/2023",
+    title: 'Colegio Secundario Técnico - Maestro Mayor de Obras',
+    corporation: "EEST N°1 - General J. Madariaga",
+    date: "Finalizado en 2021",
   },
 ];
 
@@ -89,55 +89,41 @@ export const skills = [
     icon: IconKeys.githubb,
   },
   {
-    title: "Material UI",
-    icon: IconKeys.materialUi,
+    title: "HTML",
+    icon: IconKeys.html,
   },
 
   {
-    title: "Redux Js",
-    icon: IconKeys.redux,
+    title: "CSS",
+    icon: IconKeys.css,
   },
   {
-    title: "Styled Components",
-    icon: IconKeys.styled,
-  },
-  {
-    title: "Node Js",
-    icon: IconKeys.nodejs,
-  },
-  {
-    title: "TypeScript",
-    icon: IconKeys.typeScript,
-  },
-  {
-    title: "Radix UI",
-    icon: IconKeys.radix,
-  },
-
-  {
-    title: "React Query",
-    icon: IconKeys.reactQuery,
-  },
-  {
-    title: "Vite",
-    icon: IconKeys.vite,
-  },
-  {
-    title: "Zustand",
-    icon: IconKeys.zustand,
-  },
-
-  {
-    title: "Shadcn UI",
-    icon: IconKeys.shadcn,
-  },
-  {
-    title: "Mongo Db",
-    icon: IconKeys.mongodb,
+    title: "JavaScript",
+    icon: IconKeys.javaScript,
   },
 ];
 
 export const projects = [
+    {
+    img: "../../../img/DASH-Sales.png",
+    title: "KPIs Coffee Store",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiOTEzMmE3YmEtMDc2Ny00OWY3LWIzODAtZjA5OTRmZWU3OTA4IiwidCI6ImIyNzg4MzIxLWFjYjgtNDc4OC04NmUzLThhYTQ1M2U1NDkyMiIsImMiOjR9",
+    description: `Proyecto de visualización de KPIs de una tienda de café y para identificar productos con bajo margen de ganancia.`,
+    technologies: [
+      {
+        icon: IconKeys.powerbi,
+      },
+      {
+        icon: IconKeys.excel,
+      },
+      {
+        icon: IconKeys.sql,
+      },
+      {
+        icon: IconKeys.fabric,
+      },
+    ],
+  },
   {
     img: "../../../img/DASH-Ingresos.png",
     title: "Seguimiento Financiero",
@@ -176,7 +162,7 @@ export const projects = [
     img: "../../../img/DASH-Compras.png",
     title: "Análisis de Compras por Status",
     link: "https://app.powerbi.com/view?r=eyJrIjoiZTFjYzJmZGUtNjI0My00NmEwLWJjMmQtNWI0ZThjMGMyYjFlIiwidCI6ImIyNzg4MzIxLWFjYjgtNDc4OC04NmUzLThhYTQ1M2U1NDkyMiIsImMiOjR9",
-    description: `Este Proyecto busca visualizar gastos realizados por distintos Empleados de una empresa`,
+    description: `Este Proyecto busca visualizar gastos realizados por distintos empleados de una empresa y deducir costos.`,
     technologies: [
       {
         icon: IconKeys.powerbi,
@@ -190,140 +176,23 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/store-games.webp",
-    title: "Store games",
-    link: "https://store-games-site.netlify.app/",
-    description: `Simulando una página de juegos , consumiendo la API de rawg api
-      donde los usuarios pueden buscar videojuegos, ver sus detalles como
-      creadores , calificaciones,tiendas donde comprar.....`,
+    img: "../../../img/DASH-Cantantes.webp",
+    title: "Artistas Argentinos",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiZDNlOGI0MGItMDU3Ny00MmE1LTkzZGEtZTYwOTg1Nzg2MjdjIiwidCI6ImIyNzg4MzIxLWFjYjgtNDc4OC04NmUzLThhYTQ1M2U1NDkyMiIsImMiOjR9",
+    description: `Proyecto de visualización de Artistas argentinos por año y género en una base SQL local.`,
     technologies: [
       {
-        icon: IconKeys.react,
+        icon: IconKeys.powerbi,
       },
       {
-        icon: IconKeys.css,
+        icon: IconKeys.excel,
       },
       {
-        icon: IconKeys.javaScript,
+        icon: IconKeys.sql,
       },
       {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.reactQuery,
+        icon: IconKeys.fabric,
       },
     ],
-  },
-  {
-    img: "../../../img/movie.webp",
-    title: "Movie Tv",
-    link: "https://movietvsite.netlify.app/",
-    description: `simulando una página de películas , consumiendo la API de themovietv
-              donde los usuarios pueden buscar películas y ver trailer.....`,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-
-  {
-    img: "../../../img/fit-nation.webp",
-    title: "gym",
-    link: "https://fitnation.netlify.app/",
-    description: `landing page de una gym por ahora es una landing todavia está en
-              desarrollo la idea es que los usuarios puedan comprar productos de
-              el gym`,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-  {
-    img: "../../../img/spotify.webp",
-    title: "Spotify-Clone",
-    link: "https://www.linkedin.com/posts/osnaider-mart%C3%ADnez_clon-de-la-p%C3%A1gina-de-spotify-echo-con-react-activity-7119712602342965248-upgL?utm_source=share&utm_medium=member_desktop",
-    description: `Clon de la página de Spotify con autenticación de usuario, reproductor de canciones, etc `,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.redux,
-      },
-      {
-        icon: IconKeys.reactQuery,
-      },
-    ],
-  },
-
-  {
-    img: "../../../img/landing.webp",
-    title: "Landing Realidad Virtual",
-    link: "https://realityvirtual.netlify.app/",
-    description: `landing page de gafas de realidad virtual donde se muestra el
-              producto y como funciona`,
-    technologies: [
-      {
-        icon: IconKeys.astro,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-  {
-    img: "../../../img/tasks-manager.webp",
-    title: "Tasks Manager",
-    link: "https://task-manager-ecru-chi.vercel.app/dashboard",
-    description: `Administrador de tareas con drag and drop autenticación con Clerk , shadcn.  "En Desarrollo "`,
-    technologies: [
-      {
-        icon: IconKeys.typeScript,
-      },
-      {
-        icon: IconKeys.nextjs,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.zustand,
-      },
-      {
-        icon: IconKeys.shadcn,
-      },
-    ],
-  },
+  }
 ];

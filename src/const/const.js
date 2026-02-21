@@ -47,6 +47,11 @@ export const IconKeys = {
   pandas: "pandas",
   matplotlib: "matplotlib",
   seaborn: "seaborn",
+  communication: "communication",
+  flex: "flex",
+  time: "time",
+  team: "team",
+  adapt: "adapt",
   // here add more icon keys
 };
 
@@ -100,6 +105,26 @@ export const skills = [
   {
     title: "JavaScript",
     icon: IconKeys.javaScript,
+  },
+  {
+    title: "Comunicación",
+    icon: IconKeys.communication,
+  },
+  {
+    title: "Flexibilidad",
+    icon: IconKeys.flex,
+  },
+  {
+    title: "Gestión del Tiempo",
+    icon: IconKeys.time,
+  },
+  {
+    title: "Trabajo en Equipo",
+    icon: IconKeys.team,
+  },
+  {
+    title: "Adaptabilidad",
+    icon: IconKeys.adapt,
   },
 ];
 

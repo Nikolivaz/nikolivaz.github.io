@@ -97,11 +97,6 @@ export const skills = [
     title: "HTML",
     icon: IconKeys.html,
   },
-
-  {
-    title: "CSS",
-    icon: IconKeys.css,
-  },
   {
     title: "JavaScript",
     icon: IconKeys.javaScript,
@@ -170,23 +165,6 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/DASH-Productos.png",
-    title: "Análisis de Ventas por Producto",
-    link: "https://app.powerbi.com/view?r=eyJrIjoiZWE3NjcwMmMtNDVlMS00ZGQ0LWExODEtNWVlNzY5YzFiM2NjIiwidCI6ImIyNzg4MzIxLWFjYjgtNDc4OC04NmUzLThhYTQ1M2U1NDkyMiIsImMiOjR9",
-    description: `Proyecto de visualización y filtrado de imágenes agrupadas, para analizar ventas por producto.`,
-    technologies: [
-      {
-        icon: IconKeys.powerbi,
-      },
-      {
-        icon: IconKeys.excel,
-      },
-      {
-        icon: IconKeys.fabric,
-      },
-    ],
-  },
-  {
     img: "../../../img/DASH-Compras.png",
     title: "Análisis de Compras por Status",
     link: "https://app.powerbi.com/view?r=eyJrIjoiZTFjYzJmZGUtNjI0My00NmEwLWJjMmQtNWI0ZThjMGMyYjFlIiwidCI6ImIyNzg4MzIxLWFjYjgtNDc4OC04NmUzLThhYTQ1M2U1NDkyMiIsImMiOjR9",
@@ -203,24 +181,4 @@ export const projects = [
       },
     ],
   },
-  {
-    img: "../../../img/DASH-Cantantes.png",
-    title: "Artistas Argentinos",
-    link: "https://app.powerbi.com/view?r=eyJrIjoiZDNlOGI0MGItMDU3Ny00MmE1LTkzZGEtZTYwOTg1Nzg2MjdjIiwidCI6ImIyNzg4MzIxLWFjYjgtNDc4OC04NmUzLThhYTQ1M2U1NDkyMiIsImMiOjR9",
-    description: `Proyecto de visualización de Artistas argentinos por año y género en una base SQL local.`,
-    technologies: [
-      {
-        icon: IconKeys.powerbi,
-      },
-      {
-        icon: IconKeys.excel,
-      },
-      {
-        icon: IconKeys.sql,
-      },
-      {
-        icon: IconKeys.fabric,
-      },
-    ],
-  }
 ];

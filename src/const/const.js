@@ -130,7 +130,7 @@ export const projects = [
     {
     img: "../../../img/DASH-Sales.png",
     title: "KPIs Coffee Store",
-    link: "https://app.powerbi.com/view?r=eyJrIjoiOTEzMmE3YmEtMDc2Ny00OWY3LWIzODAtZjA5OTRmZWU3OTA4IiwidCI6ImIyNzg4MzIxLWFjYjgtNDc4OC04NmUzLThhYTQ1M2U1NDkyMiIsImMiOjR9",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiNWY5NDIzMmItMGJjZi00OTAzLWI5MjItNGUzZDAxYmQyNDkxIiwidCI6ImIyNzg4MzIxLWFjYjgtNDc4OC04NmUzLThhYTQ1M2U1NDkyMiIsImMiOjR9",
     description: `Proyecto de visualización de KPIs de una tienda de café y para identificar productos con bajo margen de ganancia.`,
     technologies: [
       {
